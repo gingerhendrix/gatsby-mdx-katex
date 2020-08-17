@@ -9,7 +9,7 @@ Kick off your project with this latex themed boilerplate. Contains:
 ## 🚀 Quick start
 
 ```
-npx degit git@github.com/gingerhendrix/gatsby-mdx-katex
+npx degit gingerhendrix/gatsby-mdx-katex my-new-gatsby-site
 ```
 
 
