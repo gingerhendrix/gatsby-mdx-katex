@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Gatsby Latex Stater`,
+    description: `Edit gatsby-config.js to update`,
+    author: `@gingerhendrix`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -18,11 +18,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-mdx`,
       options: {
-        /*
         defaultLayouts: {
-          default: require.resolve("./src/components/mdxLayout.js"),
+          default: require.resolve("./src/components/layout.js"),
         },
-        */
         //gatsbyRemarkPlugins: [`gatsby-remark-katex`],
         // https://github.com/gatsbyjs/gatsby/issues/6648#issuecomment-516722534
         remarkPlugins: [require("remark-math"), require("remark-html-katex")],

@@ -7522,6 +7522,11 @@ latest-version@^3.0.0:
   dependencies:
     package-json "^4.0.0"
 
+latex.css@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/latex.css/-/latex.css-1.2.0.tgz#8ff67eafc6110e205b2b08ff622712425cb2620d"
+  integrity sha512-5Ts+Z4izdIFzj6K047cGYVwWWOPxvc+rN1zZO5iHCrudwlT0+/+tQfKumxLs7KaL/+CqXUp6pmo6g9UnQwFQEw==
+
 lcid@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/lcid/-/lcid-1.0.0.tgz#308accafa0bc483a3867b4b6f2b9506251d1b835"
